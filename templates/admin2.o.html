@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css"/>
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/select_teams.css') }}"/>
+
+        <script>
+            function updateTossWinner() {
+                var team1 = document.getElementById("team1").value;
+                var team2 = document.getElementById("team2").value;
+                var tossWinnerDropdown = document.getElementById("toss_winner");
+                
+                tossWinnerDropdown.innerHTML = "";
+                
+                if(team1 == team2){
+                    team1.innerHTML = "";
+                    team2.innerHTML = "";
+                }
+                else{
+                    var teams = [team1, team2];
+                    for (var i = 0; i < teams.length; i++) {
+                        var option = document.createElement("option");
+                        option.text = teams[i];
+                        option.value = teams[i];
+                        tossWinnerDropdown.add(option);
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="/process_toss" method="post">
+        <div class="admin">
+            <div class="div">
+                <a href ="admin login.html"> <img class="vector-1" src="{{ url_for('static',filename='images/Logout.png') }}"></a>
+                <div class="overlap">
+                    <div class="group">
+                        <div class="overlap-group">
+                            <img class="img" src="{{ url_for('static',filename='images/1111.png') }}" />
+                            <img class="img-2" src="{{ url_for('static',filename='images/2222.png') }}"/>
+                        </div>
+                        <img class="img-3" src="{{ url_for('static',filename='images/3333.png') }}"/>
+                    </div>
+                    <div class="rectangle"></div>
+                    <div>
+                    <img class="img-4" src="{{ url_for('static', filename='images/Rectangle 2.png') }}">
+                    <div class="group-2">
+                        <div class="text-wrapper"><u>TEAMS SELECTION</u></div>
+                        <div class="text-wrapper-2">TOSS</div>
+                        <div class="text-wrapper-8">TEAM 1</div>
+                        <div class="overlap-group-wrapper">
+                            <select id="team1" name = "team1" style="width: 150px; height: 30px;" onchange="updateTossWinner()" required>
+                                <option value="">Team_1</option>
+                                <option value="RCB">RCB</option>
+                                <option value="CSK">CSK</option>
+                                <option value="RR">RR</option>
+                                <option value="KKR">KKR</option>
+                                <option value="SRH">SRH</option>
+                                <option value="DC">DC</option>
+                                <option value="GT">GT</option>
+                                <option value="MI">MI</option>
+                                <option value="LSG">LSG</option>
+                                <option value="PBKS">PBKS</option>
+                        </select>
+                        </div>
+                        <div class="overlap-wrapper">
+                            <select id="toss_winner" name = "toss_winner" style="width: 150px; height: 30px;" required>
+                                <option value="">Toss Won By</option>
+                                <!-- <option value="Team1">Team1</option>
+                                <option value="Team2">Team2</option> -->
+                            </select>
+                        </div>
+                        <div class="text-wrapper-10">CHOOSE TO</div>
+                        <div class="group-3">
+                            <select id="teamSelect" name = "choice" style="width: 150px; height: 30px;" required>
+                                <option value="">Choose To</option>
+                                <option value="Bat">Bat</option>
+                                <option value="Bowl">Bowl</option></select>
+                        </div>
+                        <div class="text-wrapper-11">OVERS</div>
+                        <div class="group-7">
+                            <select id="teamSelect" name = "overs" style="width: 150px; height: 30px;" required>
+                                <option value="">Overs</option>
+                                <option value=2>2</option>
+                                <option value=5>5</option>
+                                <option value=10>10</option>
+                            </select>
+                        </div>
+                        <div class="text-wrapper-9">TEAM 2</div>
+                        <div class="group-4">
+                            <select id="team2" name = "team2" style="width: 150px; height: 30px;" onchange="updateTossWinner()" required>
+                                <option value="">Team_2</option>
+                                <option value="RCB">RCB</option>
+                                <option value="CSK">CSK</option>
+                                <option value="RR">RR</option>
+                                <option value="KKR">KKR</option>
+                                <option value="SRH">SRH</option>
+                                <option value="DC">DC</option>
+                                <option value="GT">GT</option>
+                                <option value="MI">MI</option>
+                                <option value="LSG">LSG</option>
+                                <option value="PBKS">PBKS</option>
+                        </select></div></div>
+                        </div>
+                        <div class="group-5">
+                            <!-- <button type="submit" class="overlap-3"></button> -->
+                            <a href = "RCB.html" class="text-wrapper-6"><button type="submit" class="overlap-3"><h2>START MATCH</h2></button></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-6">
+                    <div class="overlap-4"><div class="text-wrapper-7">CRIC</div></div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </body>
+</html>

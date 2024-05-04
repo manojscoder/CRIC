@@ -1,0 +1,79 @@
+body {
+    width: 90%;
+    height: 110%;
+    position: relative;
+    background: linear-gradient(135deg, #020C21 0%, #1A3163 100%);
+}
+
+.container {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 320px;
+    left: 770px;
+    transform: translate(-50%, -50%);
+    transform-origin: 0 0;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0) 0%, rgba(168, 166, 166, 0.5) 100%);
+    border-radius: 16px;
+    backdrop-filter: blur(40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: lighter;
+    border: 1px solid;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+	background-color: transparent;
+}
+
+input[type="text"], input[type="password"], button {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 350px;
+    font-family: League Spartan;
+    font-weight: lighT;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.sign-in-button {
+    width: 50%;
+	text-align: center;
+}
+
+.sign-in-button-inner {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.sign-in-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: League Spartan;
+    font-weight: 300;
+    line-height: 29.18px;
+    word-wrap: break
+}

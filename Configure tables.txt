@@ -1,0 +1,160 @@
+Before running the project, please prepare these tables in your MySQL server
+
+Queries are provided just copy paste it and run it in MySQL in the same sequence given below
+
+I'll just give queries for only 2 teams CSK and RCB, if you need to add teams add it same as RCB and CSK tables which are given below(team_name for all players and team_name_b for bowlers)
+
+
+
+ADMIN TABLE:
+
+CREATE TABLE ADMIN(admin_id varchar(20), password varchar(20));
+
+INSERT INTO ADMIN values("PES123", "password");
+
+
+PRRVIOUS MATCHES:
+
+CREATE TABLE previous_matches (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    team1 VARCHAR(20),
+    team2 VARCHAR(20),
+    innings_won INT,
+    score_team1 INT,
+    score_team2 INT,
+    wicket_team1 INT,
+    wicket_team2 INT,
+    overs_team1 DECIMAL(2,1),
+    overs_team2 DECIMAL(2,1)
+);
+
+
+INSERT INTO previous_matches (team1, team2, innings_won, score_team1, score_team2, wicket_team1, wicket_team2, overs_team1, overs_team2)
+VALUES
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0),
+('TBC', 'TBC', 0, 0, 0, 0, 0, 0.0, 0.0);
+
+
+CSK playing 11:
+
+CREATE TABLE csk (
+    id INT PRIMARY KEY,
+    name VARCHAR(30)
+);
+
+INSERT INTO csk (id, name)
+VALUES
+    (1, 'MS Dhoni'),
+    (2, 'Suresh Raina'),
+    (3, 'Ravindra Jadeja'),
+    (4, 'Deepak Chahar'),
+    (5, 'Ambati Rayudu'),
+    (6, 'Ruturaj Gaikwad'),
+    (7, 'Robin Uthappa'),
+    (8, 'Tushar Deshpande'),
+    (9, 'Mahish Thikshana'),
+    (10, 'Mustafizur Rahman'),
+    (11, 'Shardul Thakur');
+
+
+CSK bowling:
+
+CREATE TABLE csk_b (
+    id INT PRIMARY KEY,
+    name VARCHAR(30)
+);
+
+INSERT INTO csk_b (id, name)
+VALUES
+    (1, 'Deepak Chahar'),
+    (2, 'Tushar Deshpande'),
+    (3, 'Mahish Thikshana'),
+    (4, 'Ravindra Jadeja'),
+    (5, 'Mustafizur Rahman');
+
+
+RCB playing 11:
+
+CREATE TABLE rcb (
+    id INT PRIMARY KEY,
+    name VARCHAR(30)
+);
+
+
+INSERT INTO rcb (id, name)
+VALUES
+    (1, 'Virat Kohli'),
+    (2, 'AB de Villiers'),
+    (3, 'Glenn Maxwell'),
+    (4, 'Yuzvendra Chahal'),
+    (5, 'Mohammed Siraj'),
+    (6, 'Devdutt Padikkal'),
+    (7, 'Harshal Patel'),
+    (8, 'Washington Sundar'),
+    (9, 'Kyle Jamieson'),
+    (10, 'Dan Christian'),
+    (11, 'Sachin Baby');
+
+
+
+RCB bowling:
+
+CREATE TABLE rcb_b (
+    id INT PRIMARY KEY,
+    name VARCHAR(30)
+);
+
+INSERT INTO rcb_b (id, name)
+VALUES
+    (1, 'Harshal Patel'),
+    (2, 'Washington Sundar'),
+    (3, 'Kyle Jamieson'),
+    (4, 'Dan Christian'),
+    (5, 'Sachin Baby');
+
+
+
+TEAM STADIUM:
+
+CREATE TABLE TEAM_STADIUM(team_name varchar(10), stadium_name varchar(25));
+
+INSERT INTO team_stadium (team_name, stadium_name)
+VALUES
+    ('CSK', 'MA Chidambaram Stadium'),
+    ('RCB', 'Chinnaswamy Stadium'),
+    ('MI', 'Wankhede Stadium'),
+    ('DC', 'Arun Jaitley Stadium'),
+    ('RR', 'Sawai Mansingh Stadium'),
+    ('KKR', 'Eden Gardens'),
+    ('LSG', 'Ekana Cricket Stadium'),
+    ('GT', 'Narendra Modi Stadium'),
+    ('SRH', 'Rajiv Gandhi Stadium'),
+    ('PBKS', 'Maharaja Singh Stadium');
+
+
+LIVE MATCH:
+
+CREATE TABLE live_match (
+    team1 VARCHAR(5),
+    team2 VARCHAR(5),
+    batting_first VARCHAR(5),
+    batting_second VARCHAR(5),
+    toss_winner VARCHAR(5),
+    toss_decision VARCHAR(5),
+    overs VARCHAR(5),
+    stadium VARCHAR(30)
+);
+
+# NO NEED TO INSERT ANYTHING IN THIS TABLE
+
+
+
+
+

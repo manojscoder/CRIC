@@ -1,0 +1,1079 @@
+.live {
+    background-color: rgb(25.66, 49.32, 99.01);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.live .div {
+    /* background-color: rgba(255, 255, 255, 1); */
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1650px;
+    height: 1365px;
+    position: relative;
+}
+
+.live .overlap {
+    position: absolute;
+    width: 1519px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.live .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.live .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.live .group-2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 901px;
+}
+
+.live .navbar {
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    top: 48px;
+    left: 540px;
+}
+
+.live .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.live .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-3 {
+    left: 97px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-5 {
+    left: 312px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-6 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .vector {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left: 384px;
+}
+
+.live .overlap-wrapper {
+    position: absolute;
+    width: 723px;
+    height: 1155px;
+    top: 118px;
+    left: 409px;
+}
+
+.live .overlap-group {
+    position: relative;
+    width: 733px;
+    height: 1155px;
+}
+
+.live .rectangle {
+    position: absolute;
+    width: 720px;
+    height: 1098px;
+    top: 0;
+    left: 1px;
+    border-radius: 4px;
+    transform: rotate(-180deg);
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.live .group-3 {
+    position: absolute;
+    width: 732px;
+    height: 87px;
+    top: 200px;
+    left: 1px;
+}
+
+.live .text-wrapper-7 {
+    top: 35px;
+    left: 26px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.5px;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-8 {
+    left: 26px;
+    color: #62f65f;
+    position: absolute;
+    top: 53px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.5px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-9 {
+    left: 668px;
+    color: #ea6969;
+    position: absolute;
+    top: 53px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.5px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-10 {
+    top: 35px;
+    left: 669px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.5px;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-11 {
+    position: absolute;
+    top: 17px;
+    left: 276px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.live .img {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .rectangle-2 {
+    position: absolute;
+    width: 404px;
+    height: 11px;
+    top: 76px;
+    left: 24px;
+    background-color: #62f65f;
+}
+
+.live .rectangle-3 {
+    position: absolute;
+    width: 266px;
+    height: 11px;
+    top: 76px;
+    left: 428px;
+    background-color: #ea6969;
+}
+
+.live .rectangle-4 {
+    position: absolute;
+    width: 722px;
+    height: 242px;
+    top: 325px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-2 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 636px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-3 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 669px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-4 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 708px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-5 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 738px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-6 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 978px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-7 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 1008px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-8 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 1038px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-9 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 1068px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-10 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 1098px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-11 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 768px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-12 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 798px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-13 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 828px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-14 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 858px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-15 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 888px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-16 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 918px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .vector-17 {
+    position: absolute;
+    width: 722px;
+    height: 1px;
+    top: 948px;
+    left: 0;
+    object-fit: cover;
+}
+
+.live .group-4 {
+    position: absolute;
+    width: 587px;
+    height: 146px;
+    top: 27px;
+    left: 74px;
+}
+
+.live .text-wrapper-12 {
+    top: 104px;
+    left: -2px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26.4px;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-13 {
+    top: 104px;
+    left: 527px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26.4px;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-14 {
+    position: absolute;
+    top: 0;
+    left: 209px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #e0f8f4;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-15 {
+    position: absolute;
+    top: 126px;
+    left: 212px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #e0f8f4;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.live .pngwing {
+    width: 38px;
+    height: 56px;
+    top: 42px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
+
+.live .pngwing-2 {
+    width: 62px;
+    height: 51px;
+    top: 45px;
+    left: 511px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.live .text-wrapper-16 {
+    position: absolute;
+    width: 48px;
+    top: 63px;
+    left: 62px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16.6px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-17 {
+    position: absolute;
+    width: 75px;
+    top: 63px;
+    left: 418px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16.6px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-18 {
+    position: absolute;
+    width: 59px;
+    top: 84px;
+    left: 56px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #e0f8f4;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 13.5px;
+    white-space: nowrap;
+}
+
+.live .vector-18 {
+    position: absolute;
+    width: 116px;
+    height: 3px;
+    top: 707px;
+    left: 86px;
+}
+
+.live .rectangle-5 {
+    position: absolute;
+    width: 722px;
+    height: 31px;
+    top: 637px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.live .group-5 {
+    position: absolute;
+    width: 531px;
+    height: 510px;
+    top: 645px;
+    left: 104px;
+}
+
+.live .group-6 {
+    position: absolute;
+    width: 509px;
+    height: 10px;
+    top: 72px;
+    left: 19px;
+}
+
+.live .text-wrapper-19 {
+    position: absolute;
+    width: 71px;
+    top: 0;
+    left: 0;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-7 {
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    top: 0;
+    left: 357px;
+}
+
+.live .text-wrapper-20 {
+    width: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-21 {
+    position: absolute;
+    width: 12px;
+    top: 0;
+    left: 32px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-22 {
+    position: absolute;
+    width: 12px;
+    top: 0;
+    left: 64px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-23 {
+    position: absolute;
+    width: 12px;
+    top: 0;
+    left: 96px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-24 {
+    width: 22px;
+    left: 128px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-8 {
+    position: absolute;
+    width: 513px;
+    height: 11px;
+    top: 372px;
+    left: 19px;
+}
+
+.live .group-9 {
+    position: absolute;
+    width: 167px;
+    height: 10px;
+    top: 0;
+    left: 354px;
+}
+
+.live .text-wrapper-25 {
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 127px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-26 {
+    position: absolute;
+    width: 83px;
+    top: 1px;
+    left: 0;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-10 {
+    position: absolute;
+    width: 514px;
+    height: 16px;
+    top: 102px;
+    left: 19px;
+}
+
+.live .group-11 {
+    position: absolute;
+    width: 165px;
+    height: 10px;
+    top: 0;
+    left: 357px;
+}
+
+.live .text-wrapper-27 {
+    position: absolute;
+    width: 32px;
+    top: 0;
+    left: 123px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-28 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-12 {
+    position: absolute;
+    width: 514px;
+    height: 17px;
+    top: 400px;
+    left: 19px;
+}
+
+.live .group-13 {
+    position: absolute;
+    width: 168px;
+    height: 10px;
+    top: 0;
+    left: 354px;
+}
+
+.live .text-wrapper-29 {
+    position: absolute;
+    width: 32px;
+    top: 0;
+    left: 126px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-30 {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .overlap-group-wrapper {
+    position: absolute;
+    width: 229px;
+    height: 39px;
+    top: 471px;
+    left: 19px;
+}
+
+.live .overlap-2 {
+    position: relative;
+    width: 231px;
+    height: 39px;
+}
+
+.live .text-wrapper-31 {
+    position: absolute;
+    top: 59px;
+    left: 67px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-14 {
+    position: absolute;
+    width: 231px;
+    height: 39px;
+    top: 0;
+    left: 0;
+}
+
+.live .overlap-group-2 {
+    position: relative;
+    width: 227px;
+    height: 39px;
+}
+
+.live .p {
+    position: absolute;
+    top: 1px;
+    left: 42px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+    width: 52px;
+    height: 39px;
+    top: 0;
+    left: 0;
+}
+
+.live .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #62f65f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18.7px;
+}
+.live .text1 {
+    position: relative;
+    align-self: stretch;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #62f65f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18.7px;
+}
+
+.live .span {
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #62f65f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18.7px;
+}
+.live .span1 {
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #62f65f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.7px;
+}
+
+.live .group-15 {
+    position: absolute;
+    width: 514px;
+    height: 16px;
+    top: 132px;
+    left: 19px;
+}
+
+.live .group-16 {
+    position: absolute;
+    width: 490px;
+    height: 17px;
+    top: 310px;
+    left: 19px;
+}
+
+.live .text-wrapper-32 {
+    position: absolute;
+    top: -12px;
+    left: 357px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.live .group-17 {
+    position: absolute;
+    width: 520px;
+    height: 45px;
+    top: 0;
+    left: 0;
+}
+
+.live .text-wrapper-33 {
+    width: 80px;
+    top: 36px;
+    left: 0;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-34 {
+    width: 120px;
+    top: 36px;
+    left: 394px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: normal;
+    position: absolute;
+    color: #e0f8f4;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.live .text-wrapper-35 {
+    position: absolute;
+    top: 0;
+    left: 219px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #e0f8f4;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.live .rectangle-6 {
+    position: absolute;
+    width: 1500px;
+    height: 20px;
+    top: 1344px;
+    left: 19px;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+a{
+    text-decoration: None;
+}

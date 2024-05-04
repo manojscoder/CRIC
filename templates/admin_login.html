@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Sign-In</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/admin_login.css') }}">
+</head>
+<body>
+<center>
+    <div class="container">
+        <form action = '/admin_login' method = 'post'>
+            <!-- <label for="employee-id"></label> -->
+            <input type="text" name = 'id' placeholder="ADMIN ID" required>
+            <!-- <label for="pin"></label> -->
+            <input type="password" id="pin" name="password" placeholder="ENTER PASSWORD" required>
+			<div class = "sign-in-button">
+				<button type="submit" class = "sign-in-button-inner" >SIGN IN</button>
+			</div>
+        </form>
+    </div>
+</center>
+</body>
+</html>

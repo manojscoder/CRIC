@@ -1,0 +1,448 @@
+.news {
+    background-color: rgb(25.66, 49.32, 99.01);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.news .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1650px;
+    height: 678px;
+    position: relative;
+}
+
+.news .overlap {
+    position: absolute;
+    width: 1536px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.news .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.news .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.news .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -21px;
+    left: 1360px;
+}
+
+.news .navbar {
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    top: 48px;
+    left: 540px;
+    text-align: center;
+}
+
+.news .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.news .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.news .text-wrapper-3 {
+    left: 97px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.news .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.news .text-wrapper-5 {
+    left: 312px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.news .text-wrapper-6 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.news .rectangle {
+    position: fixed;
+    width: 1536px;
+    height: 20px;
+    top: 674px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.news .vector {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left: 472px;
+}
+
+.news .group-2 {
+    position: absolute;
+    width: 650px;
+    height: 555px;
+    top: 98px;
+    left: 431px;
+}
+
+.news .overlap-group-wrapper {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
+
+.news .overlap-group {
+    position: relative;
+    width: 650px;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.news .flexcontainer {
+    width: 438px;
+    height: 19px;
+    top: -10px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+
+.news .text {
+    margin-bottom: -21px;
+    position: relative;
+    align-self: stretch;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ece6e6;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.news .span {
+    letter-spacing: 0.04px;
+}
+
+.news .text-wrapper-7 {
+    letter-spacing: 0.35px;
+}
+
+.news .zee-news-hours {
+    position: absolute;
+    top: 42px;
+    left: 15px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #696d7a;
+    font-size: 11px;
+    letter-spacing: 0.22px;
+    line-height: 15.7px;
+    white-space: nowrap;
+}
+
+.news .rectangle-2 {
+    position: absolute;
+    width: 153px;
+    height: 64px;
+    top: 7px;
+    left: 486px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.news .overlap-wrapper {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 95px;
+    left: 0;
+}
+
+.news .overlap-2 {
+    position: relative;
+    width: 650px;
+    height: 80px;
+    border-radius: 4px;
+}
+
+.news .p {
+    position: absolute;
+    top: 42px;
+    left: 16px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #696d7a;
+    font-size: 11px;
+    letter-spacing: 0.22px;
+    line-height: 15.7px;
+    white-space: nowrap;
+}
+
+.news .rectangle-3 {
+    position: absolute;
+    width: 650px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+
+}
+
+.news .flexcontainer-2 {
+    width: 379px;
+    height: 41px;
+    top: -10px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+
+.news .span-wrapper {
+    letter-spacing: 0.28px;
+    position: relative;
+    align-self: stretch;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.news .rectangle-4 {
+    position: absolute;
+    width: 153px;
+    height: 64px;
+    top: 8px;
+    left: 487px;
+    border-radius: 8px;
+}
+
+.news .group-3 {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 190px;
+    left: 0;
+}
+
+.news .flexcontainer-3 {
+    width: 438px;
+    height: 41px;
+    top: -10px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+
+.news .group-4 {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 285px;
+    left: 0;
+}
+
+.news .flexcontainer-4 {
+    width: 430px;
+    height: 41px;
+    top: -10px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+
+.news .group-5 {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 380px;
+    left: 0;
+}
+
+.news .flexcontainer-5 {
+    width: 423px;
+    height: 41px;
+    top: -10px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+
+.news .group-6 {
+    position: absolute;
+    width: 654px;
+    height: 80px;
+    top: 475px;
+    left: 0;
+}
+
+.news .flexcontainer-6 {
+    width: 410px;
+    height: 41px;
+    top: -10px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}

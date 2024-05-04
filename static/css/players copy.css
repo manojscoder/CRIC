@@ -1,0 +1,1927 @@
+.players {
+    background-color: rgb(25.66, 49.32, 99.01);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.players .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1650px;
+    height: 678px;
+    position: relative;
+}
+
+.players .overlap {
+    position: absolute;
+    width: 1536px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.players .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.players .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -21px;
+    left: 1360px;
+}
+
+.players .navbar {
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    top: 48px;
+    left: 540px;
+    text-align: center;
+}
+
+.players .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.players .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-3 {
+    left: 97px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-5 {
+    left: 312px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-6 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .rectangle {
+    position: fixed;
+    width: 1536px;
+    height: 20px;
+    top: 674px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .vector {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left: 664px;
+}
+
+.players .overlap-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 118px;
+    left: 399px;
+}
+
+.players .overlap-group {
+    position: relative;
+    height: 541px;
+}
+
+.players .rectangle-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.players .rectangle-2 {
+    height: 541px;
+    border-radius: 4px;
+    transform: rotate(-180deg);
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(50%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 150%);
+}
+
+.players .group-2 {
+    position: absolute;
+    width: 677px;
+    height: 481px;
+    top: 27px;
+    left: 32px;
+}
+
+.players .overlap-group-wrapper {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 0;
+}
+
+.players .overlap-group-2 {
+    position: relative;
+    width: 91px;
+    height: 127px;
+    border-radius: 4px;
+}
+
+.players .text-wrapper-7 {
+    position: absolute;
+    top: 72px;
+    left: 19px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-8 {
+    position: absolute;
+    top: 106px;
+    left: 23px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-3 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.players .rectangle-4 {
+    height: 127px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-3 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 0;
+}
+
+.players .suryakumar-yadav {
+    position: absolute;
+    top: 72px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-5 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 1px;
+    left: 0;
+}
+
+.players .group-4 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 0;
+}
+
+.players .text-wrapper-9 {
+    position: absolute;
+    top: 72px;
+    left: 23px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .group-5 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 117px;
+}
+
+.players .mahendra-singh-dhoni {
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .text-wrapper-10 {
+    position: absolute;
+    top: 106px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-6 {
+    height: 64px;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-6 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 117px;
+}
+
+.players .text-wrapper-11 {
+    position: absolute;
+    top: 72px;
+    left: 11px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-7 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 117px;
+}
+
+.players .group-8 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 234px;
+}
+
+.players .text-wrapper-12 {
+    position: absolute;
+    top: 72px;
+    left: 10px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-9 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 234px;
+}
+
+.players .text-wrapper-13 {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-10 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 234px;
+}
+
+.players .text-wrapper-14 {
+    left: 9px;
+    position: absolute;
+    top: 72px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-15 {
+    position: absolute;
+    top: 106px;
+    left: 16px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-11 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 351px;
+}
+
+.players .text-wrapper-16 {
+    position: absolute;
+    top: 72px;
+    left: 12px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-12 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 351px;
+}
+
+.players .group-13 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 351px;
+}
+
+.players .text-wrapper-17 {
+    position: absolute;
+    top: 106px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-14 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 468px;
+}
+
+.players .group-15 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 468px;
+}
+
+.players .text-wrapper-18 {
+    position: absolute;
+    top: 72px;
+    left: 8px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-16 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 468px;
+}
+
+.players .text-wrapper-19 {
+    position: absolute;
+    top: 72px;
+    left: 21px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-17 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 585px;
+}
+
+.players .group-18 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 585px;
+}
+
+.players .group-19 {
+    position: absolute;
+    width: 96px;
+    height: 127px;
+    top: 354px;
+    left: 585px;
+}
+
+.players .overlap-2 {
+    position: relative;
+    width: 92px;
+    height: 127px;
+}
+
+.players .mohammed-shami {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+  .players {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.players .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1568px;
+    height: 768px;
+    position: relative;
+}
+
+.players .overlap {
+    position: absolute;
+    width: 1568px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.players .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.players .img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -18px;
+    left: 1360px;
+}
+
+.players .navbar {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    top: 58px;
+    left: 526px;
+}
+
+.players .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.players .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-3 {
+    left: 117px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-5 {
+    left: 292px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-6 {
+    left: 384px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .rectangle {
+    position: absolute;
+    width: 1568px;
+    height: 32px;
+    top: 748px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .vector {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left: 664px;
+}
+
+.players .overlap-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 155px;
+    left: 380px;
+}
+
+.players .overlap-group {
+    position: relative;
+    height: 541px;
+}
+
+.players .rectangle-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 0;
+    left: 0;
+}
+
+.players .rectangle-2 {
+    height: 541px;
+    border-radius: 4px;
+    transform: rotate(-180deg);
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.players .group-2 {
+    position: absolute;
+    width: 677px;
+    height: 481px;
+    top: 27px;
+    left: 32px;
+}
+
+.players .overlap-group-wrapper {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 0;
+}
+
+.players .overlap-group-2 {
+    position: relative;
+    width: 91px;
+    height: 127px;
+    border-radius: 4px;
+}
+
+.players .text-wrapper-7 {
+    position: absolute;
+    top: 72px;
+    left: 19px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-8 {
+    position: absolute;
+    top: 106px;
+    left: 23px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-3 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.players .rectangle-4 {
+    height: 127px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-3 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 0;
+}
+
+.players .suryakumar-yadav {
+    position: absolute;
+    top: 72px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-5 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 1px;
+    left: 0;
+}
+
+.players .group-4 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 0;
+}
+
+.players .text-wrapper-9 {
+    position: absolute;
+    top: 72px;
+    left: 23px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .group-5 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 117px;
+}
+
+.players .mahendra-singh-dhoni {
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .text-wrapper-10 {
+    position: absolute;
+    top: 106px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-6 {
+    height: 64px;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-6 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 117px;
+}
+
+.players .text-wrapper-11 {
+    position: absolute;
+    top: 72px;
+    left: 11px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-7 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 117px;
+}
+
+.players .group-8 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 234px;
+}
+
+.players .text-wrapper-12 {
+    position: absolute;
+    top: 72px;
+    left: 10px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-9 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 234px;
+}
+
+.players .text-wrapper-13 {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-10 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 234px;
+}
+
+.players .text-wrapper-14 {
+    left: 9px;
+    position: absolute;
+    top: 72px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-15 {
+    position: absolute;
+    top: 106px;
+    left: 16px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-11 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 351px;
+}
+
+.players .text-wrapper-16 {
+    position: absolute;
+    top: 72px;
+    left: 12px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-12 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 351px;
+}
+
+.players .group-13 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 351px;
+}
+
+.players .text-wrapper-17 {
+    position: absolute;
+    top: 106px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-14 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 468px;
+}
+
+.players .group-15 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 468px;
+}
+
+.players .text-wrapper-18 {
+    position: absolute;
+    top: 72px;
+    left: 8px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-16 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 468px;
+}
+
+.players .text-wrapper-19 {
+    position: absolute;
+    top: 72px;
+    left: 21px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-17 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 585px;
+}
+
+.players .group-18 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 585px;
+}
+
+.players .group-19 {
+    position: absolute;
+    width: 96px;
+    height: 127px;
+    top: 354px;
+    left: 585px;
+}
+
+.players .overlap-2 {
+    position: relative;
+    width: 92px;
+    height: 127px;
+}
+
+.players .mohammed-shami {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-7 {
+    position: absolute;
+    width: 91px;
+    height: 127px;
+    top: 0;
+    left: 1px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+}.players {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.players .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1568px;
+    height: 768px;
+    position: relative;
+}
+
+.players .overlap {
+    position: absolute;
+    width: 1568px;
+    height: 80px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.players .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.players .img {
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -18px;
+    left: 1360px;
+}
+
+.players .navbar {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    top: 58px;
+    left: 526px;
+}
+
+.players .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.players .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-3 {
+    left: 117px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-5 {
+    left: 292px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-6 {
+    left: 384px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.players .rectangle {
+    position: absolute;
+    width: 1568px;
+    height: 32px;
+    top: 748px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.players .vector {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left: 664px;
+}
+
+.players .overlap-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 155px;
+    left: 380px;
+}
+
+.players .overlap-group {
+    position: relative;
+    height: 541px;
+}
+
+.players .rectangle-wrapper {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 0;
+    left: 0;
+}
+
+.players .rectangle-2 {
+    height: 541px;
+    border-radius: 4px;
+    transform: rotate(-180deg);
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.players .group-2 {
+    position: absolute;
+    width: 677px;
+    height: 481px;
+    top: 27px;
+    left: 32px;
+}
+
+.players .overlap-group-wrapper {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 0;
+}
+
+.players .overlap-group-2 {
+    position: relative;
+    width: 91px;
+    height: 127px;
+    border-radius: 4px;
+}
+
+.players .text-wrapper-7 {
+    position: absolute;
+    top: 72px;
+    left: 19px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-8 {
+    position: absolute;
+    top: 106px;
+    left: 23px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-3 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.players .rectangle-4 {
+    height: 127px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-3 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 0;
+}
+
+.players .suryakumar-yadav {
+    position: absolute;
+    top: 72px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-5 {
+    position: absolute;
+    width: 91px;
+    height: 64px;
+    top: 1px;
+    left: 0;
+}
+
+.players .group-4 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 0;
+}
+
+.players .text-wrapper-9 {
+    position: absolute;
+    top: 72px;
+    left: 23px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .group-5 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 117px;
+}
+
+.players .mahendra-singh-dhoni {
+    position: absolute;
+    top: 70px;
+    left: 14px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .text-wrapper-10 {
+    position: absolute;
+    top: 106px;
+    left: 9px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .rectangle-6 {
+    height: 64px;
+    position: absolute;
+    width: 91px;
+    top: 0;
+    left: 0;
+}
+
+.players .group-6 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 117px;
+}
+
+.players .text-wrapper-11 {
+    position: absolute;
+    top: 72px;
+    left: 11px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-7 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 117px;
+}
+
+.players .group-8 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 234px;
+}
+
+.players .text-wrapper-12 {
+    position: absolute;
+    top: 72px;
+    left: 10px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-9 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 234px;
+}
+
+.players .text-wrapper-13 {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-10 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 234px;
+}
+
+.players .text-wrapper-14 {
+    left: 9px;
+    position: absolute;
+    top: 72px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .text-wrapper-15 {
+    position: absolute;
+    top: 106px;
+    left: 16px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-11 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 351px;
+}
+
+.players .text-wrapper-16 {
+    position: absolute;
+    top: 72px;
+    left: 12px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-12 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 351px;
+}
+
+.players .group-13 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 351px;
+}
+
+.players .text-wrapper-17 {
+    position: absolute;
+    top: 106px;
+    left: 27px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-14 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 468px;
+}
+
+.players .group-15 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 468px;
+}
+
+.players .text-wrapper-18 {
+    position: absolute;
+    top: 72px;
+    left: 8px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-16 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 354px;
+    left: 468px;
+}
+
+.players .text-wrapper-19 {
+    position: absolute;
+    top: 72px;
+    left: 21px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.players .group-17 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 0;
+    left: 585px;
+}
+
+.players .group-18 {
+    position: absolute;
+    width: 95px;
+    height: 127px;
+    top: 177px;
+    left: 585px;
+}
+
+.players .group-19 {
+    position: absolute;
+    width: 96px;
+    height: 127px;
+    top: 354px;
+    left: 585px;
+}
+
+.players .overlap-2 {
+    position: relative;
+    width: 92px;
+    height: 127px;
+}
+
+.players .mohammed-shami {
+    position: absolute;
+    top: 72px;
+    left: 15px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-7 {
+    position: absolute;
+    width: 91px;
+    height: 127px;
+    top: 0;
+    left: 1px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+}  font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.players .rectangle-7 {
+    position: absolute;
+    width: 91px;
+    height: 127px;
+    top: 0;
+    left: 1px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}

@@ -1,0 +1,971 @@
+.table {
+    background-color: rgb(25.66, 49.32, 99.01);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.table .div {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1650px;
+    height: 678px;
+    position: relative;
+}
+
+.table .overlap {
+    position: absolute;
+    width: 740px;
+    height: 541px;
+    top: 115px;
+    left: 393px;
+    background-image: url(Group\ 3075.png);
+    background-size: 100% 100%;
+}
+
+.table .group {
+    position: relative;
+    width: 611px;
+    height: 495px;
+    top: 19px;
+    left: 66px;
+}
+
+.table .overlap-group-wrapper {
+    position: absolute;
+    width: 47px;
+    height: 25px;
+    top: 0;
+    left: 0;
+}
+
+.table .overlap-group {
+    position: relative;
+    height: 25px;
+}
+
+.table .text-wrapper {
+    position: absolute;
+    width: 31px;
+    top: 14px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .group-2 {
+    position: absolute;
+    width: 47px;
+    height: 22px;
+    top: 0;
+    left: 0;
+}
+
+.table .text-wrapper-2 {
+    position: absolute;
+    width: 37px;
+    top: 0;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.24px;
+    line-height: 11.8px;
+    white-space: nowrap;
+}
+
+.table .polygon {
+    position: absolute;
+    width: 9px;
+    height: 6px;
+    top: 16px;
+    left: 36px;
+}
+
+.table .team-m-w-l-NRR-pts {
+    position: absolute;
+    width: 607px;
+    top: 30px;
+    left: 1px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .overlap-wrapper {
+    position: absolute;
+    width: 610px;
+    height: 21px;
+    top: 331px;
+    left: 2px;
+}
+
+.table .overlap-2 {
+    position: relative;
+    width: 606px;
+    height: 21px;
+}
+
+.table .element {
+    top: 9px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-3 {
+    position: absolute;
+    width: 27px;
+    top: 8px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .img {
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    top: 0;
+    left: 24px;
+    object-fit: cover;
+}
+
+.table .group-3 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 10px;
+    left: 542px;
+}
+
+.table .group-4 {
+    position: relative;
+    height: 9px;
+}
+
+.table .ellipse {
+    left: 14px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .ellipse-2 {
+    left: 27px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .ellipse-3 {
+    left: 41px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .ellipse-4 {
+    left: 55px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .vector-wrapper {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    left: 0;
+    background-color: #e31c1c;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .vector {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 2px;
+    left: 2px;
+}
+
+.table .div-wrapper {
+    position: absolute;
+    width: 610px;
+    height: 24px;
+    top: 374px;
+    left: 2px;
+}
+
+.table .overlap-3 {
+    position: relative;
+    width: 606px;
+    height: 24px;
+}
+
+.table .text-wrapper-4 {
+    position: absolute;
+    width: 15px;
+    top: 8px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .MI {
+    position: absolute;
+    width: 35px;
+    height: 24px;
+    top: 0;
+    left: 24px;
+    object-fit: cover;
+}
+
+.table .group-5 {
+    position: absolute;
+    width: 609px;
+    height: 26px;
+    top: 419px;
+    left: 3px;
+}
+
+.table .overlap-4 {
+    position: relative;
+    width: 605px;
+    height: 26px;
+}
+
+.table .text-wrapper-5 {
+    position: absolute;
+    width: 19px;
+    top: 9px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .toppng {
+    position: absolute;
+    width: 27px;
+    height: 26px;
+    top: 0;
+    left: 27px;
+    object-fit: cover;
+}
+
+.table .group-wrapper {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 11px;
+    left: 541px;
+}
+
+.table .group-6 {
+    position: absolute;
+    width: 612px;
+    height: 35px;
+    top: 460px;
+    left: 1px;
+}
+
+.table .overlap-5 {
+    position: relative;
+    width: 608px;
+    height: 35px;
+}
+
+.table .element-2 {
+    top: 12px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-6 {
+    position: absolute;
+    width: 27px;
+    top: 10px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .lucknow-super-giants {
+    position: absolute;
+    width: 55px;
+    height: 35px;
+    top: 0;
+    left: 16px;
+    object-fit: cover;
+}
+
+.table .group-7 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 13px;
+    left: 544px;
+}
+
+.table .group-8 {
+    position: absolute;
+    width: 610px;
+    height: 45px;
+    top: 66px;
+    left: 2px;
+}
+
+.table .overlap-6 {
+    position: relative;
+    width: 606px;
+    height: 45px;
+}
+
+.table .element-3 {
+    top: 17px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-7 {
+    position: absolute;
+    width: 17px;
+    top: 16px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .RR {
+    width: 48px;
+    height: 45px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.table .group-9 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 18px;
+    left: 542px;
+}
+
+.table .group-10 {
+    height: 9px;
+}
+
+.table .overlap-group-2 {
+    position: relative;
+    width: 64px;
+    height: 9px;
+}
+
+.table .group-11 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 0;
+    left: 0;
+}
+
+.table .div-2 {
+    left: 0;
+    background-color: #34cd31;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .vector-2 {
+    position: absolute;
+    width: 6px;
+    height: 5px;
+    top: 2px;
+    left: 2px;
+}
+
+.table .group-12 {
+    position: absolute;
+    width: 610px;
+    height: 24px;
+    top: 115px;
+    left: 2px;
+}
+
+.table .element-4 {
+    top: 8px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-8 {
+    position: absolute;
+    width: 26px;
+    top: 7px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .pngwing {
+    width: 35px;
+    height: 24px;
+    left: 22px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.table .group-13 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 9px;
+    left: 542px;
+}
+
+.table .group-14 {
+    position: absolute;
+    width: 610px;
+    height: 34px;
+    top: 152px;
+    left: 2px;
+}
+
+.table .overlap-7 {
+    position: relative;
+    width: 606px;
+    height: 34px;
+}
+
+.table .element-5 {
+    top: 13px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-9 {
+    position: absolute;
+    width: 19px;
+    top: 12px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .gujarat-titans {
+    position: absolute;
+    width: 57px;
+    height: 34px;
+    top: 0;
+    left: 13px;
+    object-fit: cover;
+}
+
+.table .group-15 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 15px;
+    left: 542px;
+}
+
+.table .group-16 {
+    position: absolute;
+    width: 610px;
+    height: 33px;
+    top: 195px;
+    left: 2px;
+}
+
+.table .overlap-8 {
+    position: relative;
+    width: 606px;
+    height: 33px;
+}
+
+.table .element-6 {
+    top: 16px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-10 {
+    position: absolute;
+    width: 25px;
+    top: 15px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .img-2 {
+    position: absolute;
+    width: 23px;
+    height: 33px;
+    top: 0;
+    left: 30px;
+    object-fit: cover;
+}
+
+.table .group-17 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 16px;
+    left: 542px;
+}
+
+.table .group-18 {
+    position: absolute;
+    width: 610px;
+    height: 27px;
+    top: 243px;
+    left: 2px;
+}
+
+.table .overlap-9 {
+    position: relative;
+    width: 606px;
+    height: 27px;
+}
+
+.table .text-wrapper-11 {
+    position: absolute;
+    width: 33px;
+    top: 11px;
+    left: 80px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.table .RR-2 {
+    width: 29px;
+    height: 27px;
+    left: 26px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.table .group-19 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 12px;
+    left: 542px;
+}
+
+.table .vector-3 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 3px;
+    left: 2px;
+}
+
+.table .ellipse-5 {
+    left: 14px;
+    background-color: #34cd31;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .vector-4 {
+    position: absolute;
+    width: 6px;
+    height: 5px;
+    top: 2px;
+    left: 15px;
+}
+
+.table .group-20 {
+    position: absolute;
+    width: 610px;
+    height: 26px;
+    top: 287px;
+    left: 2px;
+}
+
+.table .overlap-10 {
+    position: relative;
+    width: 606px;
+    height: 26px;
+}
+
+.table .p {
+    top: 10px;
+    position: absolute;
+    width: 600px;
+    left: 0;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+    line-height: 12.8px;
+    white-space: nowrap;
+}
+
+.table .pngwing-2 {
+    width: 21px;
+    height: 26px;
+    left: 30px;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
+.table .group-21 {
+    position: absolute;
+    width: 64px;
+    height: 9px;
+    top: 11px;
+    left: 542px;
+}
+
+.table .img-wrapper {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 0;
+    left: 14px;
+    background-color: #e31c1c;
+    border-radius: 4.55px/4.31px;
+}
+
+.table .vector-5 {
+    position: absolute;
+    width: 6px;
+    height: 5px;
+    top: 2px;
+    left: 1px;
+}
+
+.table .overlap-11 {
+    position: absolute;
+    width: 1536px;
+    height: 70px;
+    top: -115px;
+    left: -393px;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.table .group-22 {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.table .text-wrapper-12 {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.table .group-23 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -21px;
+    left: 1360px;
+}
+
+.table .navbar {
+    position: absolute;
+    width: 452px;
+    height: 20px;
+    top: 48px;
+    left: 540px;
+}
+
+.table .group-24 {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.table .text-wrapper-13 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-14 {
+    left: 97px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-15 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-16 {
+    left: 312px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.table .text-wrapper-17 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.table .rectangle {
+    position: absolute;
+    width: 1024px;
+    height: 32px;
+    top: 748px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.table .vector-6 {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 80px;
+    left:564px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity:1;
+    }
+}

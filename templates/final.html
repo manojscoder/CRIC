@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="globals.css" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/final.css') }}" />
+        <style>
+            .moving-text {
+            position: relative;
+            animation: moveRight 7s linear infinite;
+        }
+
+            @keyframes moveRight {
+                from {
+                left: 10;
+                }
+                to {
+                left: 250px;
+                }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="live">
+            <div class="div">
+
+                <div class="overlap">
+
+                    <div class="group">
+                        <a href = "/" class="text-wrapper">CRIC</a>
+                        <a href = "/live_1" class="text-wrapper"><img class="vector-1" src="{{ url_for('static',filename='images/refresh.png') }}"></a>
+                        <div class="group-2"></div>
+                    </div>
+                    <div class="navbar">
+                        <div class="div-wrapper">
+                            <ul>
+                                <li><a href = "/match"  class ="text-wrapper-2">Matches</a></li>
+                                <li><a href = "/live_1" class="text-wrapper-3">Live</a></li>
+                                <li><a href = "/news" class="text-wrapper-4">News</a></li>
+                                <li><a href="/table"class="text-wrapper-5">Table</a></li>
+                                <li><a href="/players" class="text-wrapper-6">Players</a></li>
+                                </ul>
+                    </div>
+                </div>
+                <img class="vector" src="img/vector-616.svg" />
+                <div class="overlap-wrapper">
+                    <div class="overlap-group">
+                        <div class="rectangle"></div>
+                        <div class="group-3">
+                            <div class="text-wrapper-7">{{d[0]}}</div>
+                            <div class="text-wrapper-8">58%</div>
+                            <div class="text-wrapper-9">42%</div>
+                            <div class="text-wrapper-10">{{d[1]}}</div>
+                            <div class="text-wrapper-11">CHANCES OF WINNING</div>
+                            <img class="img" src="{{ url_for('static',filename='images/Vector 598.png') }}" />
+                            <div class="rectangle-2"></div>
+                            <div class="rectangle-3"></div>
+                        </div>
+                        <img class="rectangle-4" src="{{ url_for('static',filename='images/CSK-vs-RCB-backD.jpg') }}" />
+						{% for i in range(2, 18) %}
+                        <img class="vector-{{i}}" src="{{ url_for('static', filename='images/Vector 598.png') }}" />
+                        {% endfor %}
+                        <!--<img class="vector-2" src="Vector 598.png" />
+                        <img class="vector-3" src="Vector 598.png" />
+                        <img class="vector-4" src="Vector 598.png" />
+                        <img class="vector-5" src="Vector 598.png" />
+                        <img class="vector-6" src="Vector 598.png" />
+                        <img class="vector-7" src="Vector 598.png" />
+                        <img class="vector-8" src="Vector 598.png" />
+                        <img class="vector-9" src="Vector 598.png" />
+                        <img class="vector-10" src="Vector 598.png" />
+                        <img class="vector-11" src="Vector 598.png" />
+                        <img class="vector-12" src="Vector 598.png" />
+                        <img class="vector-13" src="Vector 598.png" />
+                        <img class="vector-14" src="Vector 598.png" />
+                        <img class="vector-15" src="Vector 598.png" />
+                        <img class="vector-16" src="Vector 598.png" />
+                        <img class="vector-17" src="Vector 598.png" />-->
+                        <img class="vector-19" src="{{ url_for('static',filename='images/Vector 598.png') }}" />
+                        <img class="vector-20" src="{{ url_for('static',filename='images/Vector 598.png') }}" />
+                        <img class="vector-21" src="{{ url_for('static',filename='images/Vector 598.png') }}" />
+                        <div class="group-4">
+                            <div class="text-wrapper-12">{{d[2]}}</div>
+                            <div class="text-wrapper-13">{{d[3]}}</div>
+                            <div class="text-wrapper-14">Wednesday, 10/5</div>
+                            <div class="text-wrapper-15 moving-text" >        
+                                {% if d1[1] != 0 and d1[1] >= d1[0] or d1[6] == 8 or d1[2] == d1[4] %}
+                                    {% if d1[1] > d1[0] %}
+                                        {{d[3]}} won by {{8 - d1[6]}} wickets
+                                    {% elif d1[1] == d1[0] %}
+                                            Match draw
+                                    {% else %}
+                                        {{d[2]}} won by {{d1[0] - d1[1]}} runs
+                                    {% endif %}
+                                {% elif d1[2] == d1[3] or d1[5] == 8 %}
+                                    {{d[3]}} needs {{d1[0] + 1 - d1[1]}} runs to win in {{((d1[2] * 6)|int - balls)|int}} balls
+                                {% else %}
+                                    Toss won by {{d[4]}} and decided to {{d[5]}} first
+                                {% endif %}
+                            </div>
+                            <img class="pngwing" src="{{ url_for('static', filename='images/' + d[2] + '.png') }}" />
+                            <img class="pngwing-2" src="{{ url_for('static', filename='images/' + d[3] + '.png') }}" />
+                            <div class="text-wrapper-16">{{ d1[0] }}/{{ d1[5] }}</div>
+                            <!-- <div class="text-wrapper-17">0/0</div> -->
+                            <div class="text-wrapper-18">({{ d1[3] }})</div>
+                            <div class="text-wrapper-36">{{ d1[1]}}/{{ d1[6] }}</div>
+                            <div class="text-wrapper-105">({{ d1[4] }})</div>
+                        </div>
+                        <img class="vector-18" src="img/vector-633.svg" />
+                        <div class="rectangle-5"></div>
+                        <div class="group-5">
+                            <div class="group-6">
+                                <div class="text-wrapper-19">Batting</div>
+                                <div class="group-7">
+                                    <div class="text-wrapper-20">R</div>
+                                    <div class="text-wrapper-21">B</div>
+                                    <div class="text-wrapper-22">4s</div>
+                                    <div class="text-wrapper-23">6s</div>
+                                    <div class="text-wrapper-24">S/R</div>
+                                </div>
+                            </div>
+                            <div class="text-wrapper-37">
+                                {% if bat[0][6] == 1 %}
+                                    <span style="color: orange;">{{ bat[0][1] }}</span>
+                                {% else %}
+                                    {{bat[0][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="text-wrapper-38">
+                                {% if bat[1][6] == 1 %}
+                                    <span style="color: orange;">{{bat[1][1]}}</span>
+                                {% else %}
+                                    {{bat[1][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="text-wrapper-39">
+                                {% if bat[2][6] == 1 %}
+                                    <span style="color: orange;">{{bat[2][1]}}</span>
+                                {% else %}
+                                    {{bat[2][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="text-wrapper-40">
+                                {% if bat[5][6] == 1 %}
+                                    <span style="color: orange;">{{bat[5][1]}}</span>
+                                {% else %}
+                                    {{bat[5][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="text-wrapper-41">
+                                {% if bat[6][6] == 1 %}
+                                    <span style="color: orange;">{{bat[6][1]}}</span>
+                                {% else %}
+                                    {{bat[6][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="text-wrapper-42">
+                            {% if bat[7][6] == 1 %}
+                                <span style="color: orange;">{{bat[7][1]}}</span>
+                            {% else %}
+                                {{bat[7][1]}}
+                            {% endif %}</div>
+                            <div class="text-wrapper-43">
+                                {% if bat[8][6] == 1 %}
+                                    <span style="color: orange;">{{bat[8][1]}}</span>
+                                {% else %}
+                                    {{bat[8][1]}}
+                                {% endif %}
+                            </div>
+                            <div class="group-8">
+                                <div class="group-9">
+                                    <div class="text-wrapper-20">O</div>
+                                    <div class="text-wrapper-21">R</div>
+                                    <div class="text-wrapper-22">W</div>
+                                   
+                                </div>
+                                <div class="text-wrapper-26">Bowling</div>
+                            </div>
+                            <div class="group-10">
+                                <div class="group-11">
+                                    <div class="text-wrapper-20">{{bat[3][2]}}</div>
+                                    <div class="text-wrapper-21">{{bat[3][3]}}</div>
+                                    <div class="text-wrapper-22">{{bat[3][4]}}</div>
+                                    <div class="text-wrapper-23">{{bat[3][5]}}</div>
+                                    <div class="text-wrapper-27">{{bat[3][7]}}</div>
+                                </div>
+                                <div class="text-wrapper-28">
+                                    {% if bat[3][6] == 1 %}
+                                    <span style="color: orange;">{{bat[3][1]}}</span>
+                                {% else %}
+                                    {{bat[3][1]}}
+                                {% endif %}
+                                </div>
+                            </div>
+                            <div class="group-12">
+                                <div class="group-13">
+                                    <div class="text-wrapper-20">{{bowl[2][2]}}</div>
+                                    <div class="text-wrapper-21">{{bowl[2][3]}}</div>
+                                    <div class="text-wrapper-22">{{bowl[2][4]}}</div>
+                                   
+                                   
+                                    <div class="text-wrapper-45">{{bat[5][5]}}</div>
+                                    <div class="text-wrapper-46">{{bat[5][4]}}</div>
+                                    <div class="text-wrapper-47">{{bat[5][3]}}</div>
+                                    <div class="text-wrapper-48">{{bat[5][2]}}</div>
+                                    <div class="text-wrapper-49">{{bat[5][7]}}</div>
+                                    <div class="text-wrapper-50">{{bat[6][5]}}</div>
+                                    <div class="text-wrapper-51">{{bat[6][4]}}</div>
+                                    <div class="text-wrapper-52">{{bat[6][3]}}</div>
+                                    <div class="text-wrapper-53">{{bat[6][2]}}</div>
+                                    <div class="text-wrapper-54">{{bat[6][7]}}</div>
+                                    <div class="text-wrapper-55">{{bat[7][5]}}</div>
+                                    <div class="text-wrapper-56">{{bat[7][4]}}</div>
+                                    <div class="text-wrapper-57">{{bat[7][3]}}</div>
+                                    <div class="text-wrapper-58">{{bat[7][2]}}</div>
+                                    <div class="text-wrapper-59">{{bat[7][7]}}</div>
+                                    <div class="text-wrapper-60">{{bat[8][5]}}</div>
+                                    <div class="text-wrapper-61">{{bat[8][4]}}</div>
+                                    <div class="text-wrapper-62">{{bat[8][3]}}</div>
+                                    <div class="text-wrapper-63">{{bat[8][2]}}</div>
+                                    <div class="text-wrapper-64">{{bat[8][7]}}</div>
+                                    <div class="text-wrapper-65">{{bat[2][5]}}</div>
+                                    <div class="text-wrapper-66">{{bat[2][4]}}</div>
+                                    <div class="text-wrapper-67">{{bat[2][3]}}</div>
+                                    <div class="text-wrapper-68">{{bat[2][2]}}</div>
+                                    <div class="text-wrapper-69">{{bat[2][7]}}</div>
+                                    <div class="text-wrapper-70">{{bat[1][5]}}</div>
+                                    <div class="text-wrapper-71">{{bat[1][4]}}</div>
+                                    <div class="text-wrapper-72">{{bat[1][3]}}</div>
+                                    <div class="text-wrapper-73">{{bat[1][2]}}</div>
+                                    <div class="text-wrapper-74">{{bat[1][7]}}</div>
+                                    <div class="text-wrapper-75">{{bat[0][5]}}</div>
+                                    <div class="text-wrapper-76">{{bat[0][4]}}</div>
+                                    <div class="text-wrapper-77">{{bat[0][3]}}</div>
+                                    <div class="text-wrapper-78">{{bat[0][2]}}</div>
+                                    <div class="text-wrapper-79">{{bat[0][7]}}</div>
+                                    
+                                    <div class="text-wrapper-81">{{bowl[3][2]}}</div>
+                                    <div class="text-wrapper-82">{{bowl[3][3]}}</div>
+                                    <div class="text-wrapper-83">{{bowl[3][4]}}</div>
+                                    
+                                    <div class="text-wrapper-90">{{bowl[1][2]}}</div>
+                                    <div class="text-wrapper-91">{{bowl[1][3]}}</div>
+                                    <div class="text-wrapper-92">{{bowl[1][4]}}</div>
+                                    
+                                    
+                                    <div class="text-wrapper-95">{{bowl[0][2]}}</div>
+                                    
+                                    <div class="text-wrapper-97">{{bowl[0][4]}}</div>
+                                    <div class="text-wrapper-98">{{bowl[0][3]}}</div>
+                                   
+                                    <div class="text-wrapper-100">{{bowl[4][2]}}</div>
+                                    
+                                    <div class="text-wrapper-102">{{bowl[4][4]}}</div>
+                                    <div class="text-wrapper-103">{{bowl[4][3]}}</div>
+                                    
+                                </div>
+                                <div class="text-wrapper-30">{{bowl[2][1]}}</div>
+                                <div class="text-wrapper-87">{{bowl[0][1]}}</div>
+                                <div class="text-wrapper-88">{{bowl[1][1]}}</div>
+                                <div class="text-wrapper-89">{{bowl[4][1]}}</div>
+                            </div>
+                            <div class="text-wrapper-44">{{bowl[3][1]}}</div>
+                            <div class="overlap-group-wrapper">
+                                <div class="overlap-2">
+                                    <div class="text-wrapper-31">{{d[7]}}</div>
+                                    <div class="group-14">
+                                        <div class="overlap-group-2">
+                                            <p class="p">Toss won by {{d[4]}} and decided to {{d[5]}} first</p>
+                                            <div class="flexcontainer">
+                                                <p class="text">
+                                                    <span class="span">TOSS: </span>
+                                                </p>
+                                                <p class="text1"><span class="span1">STADIUM: </span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group-15">
+                                <div class="group-11">
+                                    <div class="text-wrapper-20">{{bat[4][2]}}</div>
+                                    <div class="text-wrapper-21">{{bat[4][3]}}</div>
+                                    <div class="text-wrapper-22">{{bat[4][4]}}</div>
+                                    <div class="text-wrapper-23">{{bat[4][5]}}</div>
+                                    <div class="text-wrapper-27">{{bat[4][7]}}</div>
+                                </div>
+                                <div class="text-wrapper-28">
+                                    {% if bat[4][6] == 1 %}
+                                    <span style="color: orange;">{{bat[4][1]}}</span>
+                                    {% else %}
+                                        {{bat[4][1]}}
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="group-17">
+                                <a href = "/live_2" class = text-wrapper-33>{{d[3]}}</a>
+                                <div class="text-wrapper-34">{{d[2]}}</div>
+                                <div class="text-wrapper-35">SCORECARD</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangle-6"></div>
+            </div>
+        </div>
+   </body>
+</html>

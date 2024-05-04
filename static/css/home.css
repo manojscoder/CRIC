@@ -1,0 +1,1041 @@
+.home-page {
+    background-color: rgb(25.66, 49.32, 99.01);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    scroll-behavior: smooth;
+}
+
+.home-page .div {
+    /* background-color: rgba(255, 255, 255, 1); */
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(2, 12, 33) 0%, rgb(25.66, 49.32, 99.01) 100%);
+    width: 1650px;
+    height: 695px;
+    position: relative;
+}
+
+.home-page .overlap {
+    position: absolute;
+    width: 1536px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.home-page .group {
+    position: absolute;
+    width: 935px;
+    height: 32px;
+    top: 16px;
+    left: 53px;
+}
+
+.home-page .text-wrapper {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    font-family: "League Spartan-Bold", Helvetica;
+    font-weight: 700;
+    color: #e0f8f3;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.48px;
+    line-height: 23.7px;
+    white-space: nowrap;
+}
+
+.home-page .img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: -20px;
+    left: 1360px;
+}
+
+.home-page .navbar {
+    position: absolute;
+    width: 499px;
+    height: 20px;
+    top: 48px;
+    left: 540px;
+    text-align: center;
+}
+
+.home-page .div-wrapper {
+    position: absolute;
+    width: 71px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: -40px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-3 {
+    left: 97px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-4 {
+    left: 199px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-5 {
+    left: 312px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-6 {
+    left: 424px;
+    position: absolute;
+    top: 0;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    line-height: 19.7px;
+    white-space: nowrap;
+}
+
+.home-page .rectangle {
+    position: absolute;
+    width: 1650px;
+    height: 22px;
+    top: 674px;
+    left: 0;
+    background-color: #2f3644;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+}
+
+.home-page .group-2 {
+    position: absolute;
+    width: 135px;
+    height: 8px;
+    top: 648px;
+    left: 705px;
+}
+
+.home-page .group-3 {
+    position: absolute;
+    width: 90px;
+    height: 7px;
+    top: 1px;
+    left: 22px;
+}
+
+.home-page .ellipse {
+    left: 0;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-2 {
+    left: 14px;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-3 {
+    left: 28px;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-4 {
+    left: 41px;
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-5 {
+    left: 55px;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-6 {
+    left: 69px;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .ellipse-7 {
+    left: 83px;
+    background-color: #696d7a;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    top: 0;
+    border-radius: 3.71px;
+}
+
+.home-page .vector {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: -4px;
+    left: 0px;
+    color: white;
+}
+
+.home-page .vector-2 {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: -4px;
+    left: 123px;
+    color: white;
+}
+
+.home-page .overlap-group {
+    position: absolute;
+    width: 918px;
+    height: 145px;
+    top: 486px;
+    left: 310px;
+}
+
+.home-page .rectangle-2 {
+    position: absolute;
+    width: 112px;
+    height: 85px;
+    top: 26px;
+    left: 806px;
+    border-radius: 16px;
+}
+
+.home-page .rectangle-3 {
+    position: absolute;
+    width: 112px;
+    height: 85px;
+    top: 35px;
+    left: 806px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-4 {
+    position: absolute;
+    width: 133px;
+    height: 86px;
+    top: 20px;
+    left: 678px;
+    border-radius: 16px;
+}
+
+.home-page .rectangle-5 {
+    position: absolute;
+    width: 134px;
+    height: 79px;
+    top: 48px;
+    left: 678px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-6 {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    top: 10px;
+    left: 540px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.home-page .rectangle-7 {
+    position: absolute;
+    width: 150px;
+    height: 96px;
+    top: 40px;
+    left: 540px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-8 {
+    position: absolute;
+    width: 112px;
+    height: 93px;
+    top: 26px;
+    left: 0;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.home-page .rectangle-9 {
+    position: absolute;
+    width: 112px;
+    height: 85px;
+    top: 35px;
+    left: 1px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-10 {
+    position: absolute;
+    width: 129px;
+    height: 107px;
+    top: 19px;
+    left: 107px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.home-page .rectangle-11 {
+    position: absolute;
+    width: 134px;
+    height: 87px;
+    top: 40px;
+    left: 107px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-12 {
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    top: 10px;
+    left: 230px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.home-page .rectangle-13 {
+    position: absolute;
+    width: 150px;
+    height: 101px;
+    top: 35px;
+    left: 230px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 18.9%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .rectangle-14 {
+    position: absolute;
+    width: 173px;
+    height: 145px;
+    top: 0;
+    border-radius: 16px;
+    left: 373px;
+}
+
+.home-page .rectangle-15 {
+    position: absolute;
+    width: 173px;
+    height: 105px;
+    top: 40px;
+    left: 373px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(0, 0, 0) 81.4%);
+}
+
+.home-page .overlap-2 {
+    position: absolute;
+    width: 969px;
+    height: 385px;
+    top: 92px;
+    left: 7px;
+}
+
+.home-page .overlap-wrapper {
+    position: absolute;
+    width: 969px;
+    height: 385px;
+    top: 0;
+    left: 0;
+}
+
+.home-page .overlap-3 {
+    position: relative;
+    width: 965px;
+    height: 385px;
+}
+
+.home-page .text-wrapper-7 {
+    top: 10px;
+    position: absolute;
+    width: 203px;
+    left: 27px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-8 {
+    top: 360px;
+    position: absolute;
+    width: 203px;
+    left: 27px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    line-height: 14.8px;
+    white-space: nowrap;
+}
+
+.home-page .group-4 {
+    position: absolute;
+    width: 920px;
+    height: 385px;
+    top: 0;
+    left: 45px;
+}
+
+.home-page .overlap-4 {
+    position: absolute;
+    width: 921px;
+    height: 28px;
+    top: 0;
+    left: -1px;
+}
+
+.home-page .group-5 {
+    position: absolute;
+    width: 115px;
+    height: 25px;
+    top: 0;
+    left: 1292px;
+}
+
+.home-page .vector-3 {
+    position: absolute;
+    width: 1406px;
+    height: 27px;
+    top: 1px;
+    left: 0;
+}
+
+.home-page .overlap-5 {
+    position: absolute;
+    width: 921px;
+    height: 335px;
+    top: 51px;
+    left: -1px;
+}
+
+.home-page .vector-4 {
+    position: absolute;
+    width: 1406px;
+    height: 27px;
+    top: 301px;
+    left: 0;
+}
+
+.home-page .group-6 {
+    position: absolute;
+    width: 266px;
+    height: 309px;
+    top: -8px;
+    left: 904px;
+}
+
+.home-page .overlap-group-wrapper {
+    position: absolute;
+    width: 172px;
+    height: 13px;
+    top: 0;
+    left: 52px;
+}
+
+.home-page .overlap-group-2 {
+    position: relative;
+    width: 170px;
+    height: 13px;
+}
+
+.home-page .text-wrapper-9 {
+    position: absolute;
+    width: 119px;
+    top: 0;
+    left: 27px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #e0f8f4;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 13.8px;
+    white-space: nowrap;
+}
+
+.home-page .vector-5 {
+    position: absolute;
+    width: 36px;
+    height: 1px;
+    top: 6px;
+    left: 0;
+    object-fit: cover;
+}
+
+.home-page .vector-6 {
+    position: absolute;
+    width: 36px;
+    height: 1px;
+    top: 6px;
+    left: 133px;
+    object-fit: cover;
+}
+
+.home-page .group-7 {
+    position: absolute;
+    width: 292px;
+    height: 279px;
+    top: 30px;
+    left: 0;
+}
+
+.home-page .overlap-6 {
+    position: relative;
+    width: 266px;
+    height: 279px;
+    border-radius: 16px;
+}
+
+.home-page .rectangle-16 {
+    position: absolute;
+    width: 266px;
+    height: 279px;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    transform: rotate(-180deg);
+    backdrop-filter: blur(40px) brightness(100%);
+    -webkit-backdrop-filter: blur(40px) brightness(100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+
+.home-page .vector-7 {
+    position: absolute;
+    width: 251px;
+    height: 1px;
+    top: 38px;
+    left: 5px;
+    object-fit: cover;
+}
+
+.home-page .flexcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    position: absolute;
+    width: 7px;
+    height: 134px;
+    top: 75px;
+    left: 22px;
+}
+
+.home-page .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 37.1px;
+}
+
+.home-page .span {
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 37.1px;
+}
+
+.home-page .vector-8 {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    top: 37px;
+    left: 12px;
+}
+
+.home-page .team-batting-bowling {
+    position: absolute;
+    top: 20px;
+    left: 11px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 13.8px;
+    white-space: nowrap;
+}
+
+.home-page .rank-team-rating {
+    position: absolute;
+    top: 55px;
+    left: 21px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 13.8px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-10 {
+    position: absolute;
+    top: 236px;
+    left: 68px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #696d7a;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 13.8px;
+    white-space: nowrap;
+}
+
+.home-page .p {
+    position: absolute;
+    top: 256px;
+    left: 35px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #696d7a;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 13.8px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-11 {
+    position: absolute;
+    width: 20px;
+    top: 86px;
+    left: 115px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-12 {
+    position: absolute;
+    width: 20px;
+    top: 86px;
+    left: 215px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .RR {
+    position: absolute;
+    width: 37px;
+    height: 34px;
+    top: 76px;
+    left: 61px;
+    object-fit: cover;
+}
+
+.home-page .text-wrapper-13 {
+    position: absolute;
+    width: 30px;
+    top: 124px;
+    left: 115px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-14 {
+    width: 30px;
+    top: 124px;
+    left: 210px;
+    position: absolute;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .pngwing {
+    width: 27px;
+    height: 19px;
+    top: 119px;
+    left: 65px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.home-page .text-wrapper-15 {
+    position: absolute;
+    width: 23px;
+    top: 158px;
+    left: 115px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-16 {
+    width: 23px;
+    top: 158px;
+    left: 214px;
+    position: absolute;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .gujarat-titans {
+    position: absolute;
+    width: 43px;
+    height: 26px;
+    top: 150px;
+    left: 58px;
+    object-fit: cover;
+}
+
+.home-page .text-wrapper-17 {
+    position: absolute;
+    width: 30px;
+    top: 196px;
+    left: 115px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-18 {
+    width: 30px;
+    top: 196px;
+    left: 210px;
+    position: absolute;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.28px;
+    line-height: 12.2px;
+    white-space: nowrap;
+}
+
+.home-page .img-2 {
+    position: absolute;
+    width: 18px;
+    height: 25px;
+    top: 187px;
+    left: 71px;
+    object-fit: cover;
+}
+
+.home-page .group-8 {
+    position: absolute;
+    width: 599px;
+    height: 206px;
+    top: 62px;
+    left: 178px;
+}
+
+.home-page .overlap-7 {
+    position: relative;
+    width: 585px;
+    height: 206px;
+    background-image: url('/static/images/Group 3088.png');
+    background-size: 100% 100%;
+}
+
+.home-page .text-wrapper-19 {
+    position: absolute;
+    width: 31px;
+    top: 127px;
+    left: 32px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #020c21;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.8px;
+}
+
+.home-page .text-wrapper-20 {
+    position: absolute;
+    width: 31px;
+    top: 127px;
+    left: 492px;
+    font-family: "League Spartan-Medium", Helvetica;
+    font-weight: 500;
+    color: #020c21;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.8px;
+}
+
+.home-page .text-wrapper-21 {
+    position: absolute;
+    width: 121px;
+    top: 24px;
+    left: 213px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #020c21;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14.8px;
+}
+
+.home-page .text-wrapper-22 {
+    position: absolute;
+    width: 114px;
+    top: 167px;
+    left: 216px;
+    font-family: "League Spartan-Light", Helvetica;
+    font-weight: 300;
+    color: #020c21;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14.8px;
+}
+
+.home-page .pngwing-2 {
+    width: 45px;
+    height: 46px;
+    top: 72px;
+    left: 31px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.home-page .pngwing-3 {
+    width: 54px;
+    height: 46px;
+    top: 74px;
+    left: 476px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.home-page .text-wrapper-23 {
+    width: 42px;
+    top: 90px;
+    left: 85px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15.6px;
+    position: absolute;
+    color: #020c21;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-24 {
+    position: absolute;
+    width: 81px;
+    top: 90px;
+    left: 383px;
+    font-family: "League Spartan-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #020c21;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    white-space: nowrap;
+}
+
+.home-page .text-wrapper-25 {
+    width: 52px;
+    top: 109px;
+    left: 79px;
+    font-family: "League Spartan-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13.5px;
+    position: absolute;
+    color: #020c21;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+section {
+    padding: 50px 20px;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Sticky Navigation */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    animation: fadeInDown 0.4s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
