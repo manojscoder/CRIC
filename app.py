@@ -344,23 +344,5 @@ def innings_1():
 
     return render_template('admin_live_2.html', team = team1,d = batters[:14], balls = balls, team2 = team2, wickets = 8, score = score + 1)
 
-
-
-
-
-    # toss_winner = request.form['toss_winner']
-    # toss_decision = request.form['choice']
-    # team1 = request.form['team1']
-    # team2 = request.form['team2']
-    # return render_template('live.html', toss_winner = toss_winner, toss_decision = toss_decision, team1 = team1, team2 = team2)
-
-
-    
-# @app.route('/display_image', methods=['POSt'])
-# def display_image():
-#     file_name1 = request.form['file_name1']
-#     file_name2 = request.form['file_name2']
-#     return render_template('Match.html', file_name1 = file_name1, file_name2 = file_name2)
-
 if __name__ == '__main__':
     app.run(debug=True)
