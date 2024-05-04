@@ -41,23 +41,7 @@
                     <img class="vector-{{i}}" src="{{ url_for('static', filename='images/Vector 598.png') }}" />
                     {% endfor %}
 
-                    <!--
-                    <img class="vector-4" src="Vector 598.png" />
-                    <img class="vector-5" src="Vector 598.png" />
-                    <img class="vector-6" src="Vector 598.png" />
-                    <img class="vector-7" src="Vector 598.png" />
-                    <img class="vector-8" src="Vector 598.png" />
-                    <img class="vector-9" src="Vector 598.png" />
-                    <img class="vector-10" src="Vector 598.png" />
-                    <img class="vector-11" src="Vector 598.png" />
-                    <img class="vector-12" src="Vector 598.png" />
-                    <img class="vector-13" src="Vector 598.png" />
-                    <img class="vector-14" src="Vector 598.png" />
-                    <img class="vector-15" src="Vector 598.png" />
-                    <img class="vector-16" src="Vector 598.png" />
-                    <img class="vector-17" src="Vector 598.png" />
-                    <img class="vector-18" src="Vector 598.png" />
-                    <img class="vector-19" src="Vector 598.png" /> -->
+                   
                     <div class="text-wrapper" id = "team1_name">{{team}}</div>
                     <div class="text-wrapper-2">SCORECARD</div>
                     {% for val in d %}
@@ -65,20 +49,7 @@
                     {% endfor %}
 
 
-                    <!-- <div class="text-wrapper-3">Virat Kohli</div>
-                    <div class="text-wrapper-4">Deepak Chahar</div>
-                    <div class="text-wrapper-5">Faf du Plessis</div>
-                    <div class="text-wrapper-6">Tushar Deshpande</div>
-                    <div class="text-wrapper-7">Will Jacks</div>
-                    <div class="text-wrapper-8">Mahish Thikshana</div>
-                    <div class="text-wrapper-9">Rajat Patidar</div>
-                    <div class="text-wrapper-10">Mustafizur Rahman</div>
-                    <div class="text-wrapper-11">Saurav Chauhan</div>
-                    <div class="text-wrapper-12">Ravindra Jadeja</div>
-                    <div class="text-wrapper-13">Dinesh Karthik</div>
-                    <div class="text-wrapper-14">Mahipal Lomaror</div>
-                    <div class="text-wrapper-15">Anuj Rawat</div>
-                    <div class="text-wrapper-16">Vaishak Vijay Kumar</div> -->
+
 
                     
                     <div class="text-wrapper-17" id = "wickets">{{wickets}}</div>
@@ -155,43 +126,9 @@
                         <div class="text-wrapper-26">O</div>
                         <div class="text-wrapper-21">W</div>
                     </div>
-                    <!-- bowlers-->
-                    <!--<button type="button" class="rectangle-14">1</button>
-                    <button type="button" class="rectangle-15"></button>
-                    <button type="button" class="rectangle-16"></button>
-                    <button type="button" class="rectangle-17"></button>
-                    <button type="button" class="rectangle-18"></button>
-                    <button type="button" class="rectangle-19"></button>
-                    <button type="button" class="rectangle-20"></button>
-                    <button type="button" class="rectangle-21"></button>
-                    <button type="button" class="rectangle-22"></button>
-                    <button type="button" class="rectangle-23"></button>
-                    <button type="button" class="rectangle-24" onclick="disableCheckedRadio('batter')">OUT</button>
-                    <button type="button" class="rectangle-25">+</button>
-                    <button type="button" class="rectangle-26" onclick="activateCheckbox(6)">OUT</button>
-                    <button type="button" class="rectangle-27" onclick="activateCheckbox(7)">OUT</button> -->
+                
                     <button type="button" class="rectangle-28" onclick="out()">OUT</button>
-                    <!-- <div class="text-wrapper-27"></div>
-                    <button type="button" class="rectangle-29" onclick="activateCheckbox(2)">OUT</button>
-                    <button type="button" class="rectangle-30" onclick="activateCheckbox(4)">OUT</button>
-                    <button type="button" class="rectangle-31" onclick="activateCheckbox(5)">OUT</button>
-                    <button type="button" class="rectangle-32" onclick="activateCheckbox(8)">OUT</button>
-                    <button type="button" class="rectangle-33" onclick="activateCheckbox(9)">OUT</button>
-                    <button type="button" class="rectangle-34">+</button>
-                    <button type="button" class="rectangle-35">+</button>
-                    <button type="button" class="rectangle-36">+</button>
-                    <button type="button" class="rectangle-37">+</button>
-                    <button type="button" class="rectangle-38">+</button>
-                    <div class="text-wrapper-28"></div>
-                    <button class="rectangle-39">+</button>
-                    <div class="text-wrapper-29"></div>
-                    <button type="button" class="rectangle-40">+</button>
-                    <button type="button" class="rectangle-41">+</button>
-                    <button type="button" class="rectangle-42"></button>
-                    <button type="button" class="rectangle-43"></button>
-                    <button type="button" class="rectangle-44"></button>
-                    <button type="button" class="rectangle-45"></button>
-                    <button type="button" class="rectangle-46"></button> -->
+                   
                     <button type="button" class="rectangle-36" onclick="extra()">NB</button> <!--added line-->
                     <button type="button" class="rectangle-37" onclick="extra()">WD</button>
 
@@ -225,76 +162,7 @@
                            
                         </div>
                     </div>
-                    <!-- <div class="overlap-wrapper">
-                        <div class="overlap-group">
-                            <input type="radio" id="2" name="Batting" value="0">
-                            
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="div-wrapper">
-                        <div class="overlap-group">
-                            <input type="radio" id="3" name="Batting" value="0" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-
-
-                    {% for i in range(2, 8) %}
-                    <div class="group-{{i}}">
-                        <div class="overlap-group">
-                            <input type="radio" id="{{i + 2}}" name="Batting" value="0" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    {% endfor %} -->
-
-
-                    <!-- <div class="group-3">
-                        <div class="overlap-group">
-                            <input type="radio" id="5" name="Batting" value="0">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-4">
-                        <div class="overlap-group">
-                            <input type="radio" id="Dinesh" name="Batting" value="0">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-5">
-                        <div class="overlap-group">
-                            <input type="radio" id="Mahipal" name="Batting" value="0">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-6">
-                        <div class="overlap-group">
-                            <input type="radio" id="Anuj" name="Batting" value="0">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-7">
-                        <div class="overlap-group">
-                            <input type="radio" id="Vaishak" name="Batting" value="0">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="group-8">
-                        <div class="overlap-group">
-                            <input type="radio" id="2" name="Batting" value="1">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
+                   
                     <div class="group-9">
                         <div class="overlap-group">
                             <input type="radio" id="1" name="run" value="1">
@@ -302,70 +170,7 @@
                             <div class="text-wrapper-51"></div>
                         </div>
                     </div>
-                    <!-- <div class="group-10">
-                        <div class="overlap-group">
-                            <input type="radio" id="2" name="Batting" value="2">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-11">
-                        <div class="overlap-group">
-                            <input type="radio" id="4" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-12">
-                        <div class="overlap-group">
-                            <input type="radio" id="3" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-13">
-                        <div class="overlap-group">
-                            <input type="radio" id="5" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-14">
-                        <div class="overlap-group">
-                            <input type="radio" id="7" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-15">
-                        <div class="overlap-group">
-                            <input type="radio" id="6" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-16">
-                        <div class="overlap-group">
-                            <input type="radio" id="8" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="group-17">
-                        <div class="overlap-group">
-                            <input type="radio" id="9" name="Batting" value="1" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-18">
-                        <div class="overlap-group">
-                            <input type="radio" id="2" name="Batting" value="4">
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
+                  
                     <div class="group-19">
                         <div class="overlap-group">
                             <input type="radio" id="2" name="run" value="2">
@@ -373,69 +178,7 @@
                             <div class="text-wrapper-51"></div>
                         </div>
                     </div>
-                    <!-- <div class="group-20">
-                        <div class="overlap-group">
-                            <input type="radio" id="4" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-21">
-                        <div class="overlap-group">
-                            <input type="radio" id="2" name="Batting" value="6" >
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-22">
-                        <div class="overlap-group">
-                            <input type="radio" id="3" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-23">
-                        <div class="overlap-group">
-                            <input type="radio" id="4" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-24">
-                        <div class="overlap-group">
-                            <input type="radio" id="7" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-25">
-                        <div class="overlap-group">
-                            <input type="radio" id="5" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-26">
-                        <div class="overlap-group">
-                            <input type="radio" id="6" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-27">
-                        <div class="overlap-group">
-                            <input type="radio" id="8" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-28">
-                        <div class="overlap-group">
-                            <input type="radio" id="9" name="Batting" value="2" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
+                  
                     <div class="group-29">
                         <div class="overlap-group">
                             <input type="radio" id="4" name="run" value="4">
@@ -443,63 +186,7 @@
                             <div class="text-wrapper-51"></div>
                         </div>
                     </div>
-                    <!-- <div class="group-30">
-                        <div class="overlap-group">
-                            <input type="radio" id="3" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-31">
-                        <div class="overlap-group">
-                            <input type="radio" id="7" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-32">
-                        <div class="overlap-group">
-                            <input type="radio" id="4" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-33">
-                        <div class="overlap-group">
-                            <input type="radio" id="5" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-34">
-                        <div class="overlap-group">
-                            <input type="radio" id="6" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-35">
-                        <div class="overlap-group">
-                            <input type="radio" id="8" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-36">
-                        <div class="overlap-group">
-                            <input type="radio" id="9" name="Batting" value="4" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="group-37">
-                        <div class="overlap-group">
-                            <input type="radio" id="7" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
+                   
                     <div class="group-38">
                         <div class="overlap-group">
                             <input type="radio" id="6" name="run" value="6" >
@@ -507,41 +194,7 @@
                             <div class="text-wrapper-51"></div>
                         </div>
                     </div>
-                    <!-- <div class="group-39">
-                        <div class="overlap-group">
-                            <input type="radio" id="3" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-40">
-                        <div class="overlap-group">
-                            <input type="radio" id="5" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-41">
-                        <div class="overlap-group">
-                            <input type="radio" id="6" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-42">
-                        <div class="overlap-group">
-                            <input type="radio" id="8" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div>
-                    <div class="group-43">
-                        <div class="overlap-group">
-                            <input type="radio" id="9" name="Batting" value="6" disabled>
-                            <div class="text-wrapper-50"></div>
-                            <div class="text-wrapper-51"></div>
-                        </div>
-                    </div> -->
+                   
                     <a href = "/finish_innings_1"><button type="submit" class="rectangle-49">FINISH INNINGS</button></a>
                     <div class="text-wrapper-52"></div>
                 </div>
